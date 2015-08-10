@@ -7,18 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<header class="navbar navbar-fixed-top navbar-default">
-  <div class="container">
-    <%= link_to "Rumorson","", class:"btn btn-lg btn-success", id:"logo"%>
-    <%= link_to "Post a Rumor","",class:"navbar-link navbar-right nav-text-link", id:"post"%>
-    <%= link_to "Privacy Policy","",class:"navbar-link navbar-right nav-text-link", id:"privacy"%>
-    
-    
-  </div>
-</header>
+
+<%= render "layouts/navigation" %>
+
+<div class=container>
 <%= yield %>
-<div class=footer>
-  <p> &copy; Rumorson.com</p>
-  </div>
+
+<%= render "layouts/footer" %>
+</div>
+
 </body>
 </html>
