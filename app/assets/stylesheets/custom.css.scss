@@ -1,0 +1,69 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.input-group-lg{
+        margin : auto;
+        margin-top: 100px;
+         width: 60%;
+}
+
+.form-control{
+    margin : auto;
+}
+
+.search-btn{
+    margin : auto;
+    margin-top : 20px;
+    margin-left:40%;
+
+}
+    
+.hline {
+    width:100%; 
+    height:3px; 
+    margin-top:100px;
+    background-color:#07C;
+}
+
+
+
+h1,h2{
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.popular-container{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px;
+}
+
+
+.popular-links{
+    width: 50%;
+    margin: auto;
+    margin-top: 7x;
+    text-align:center;
+    display:block;
+    
+}
+
+
+
+.footer{
+margin-top:25px;
+border-top:1px solid #e0e0e0;
+}
+
+
+
+.nav-text-link{
+    padding:10px;
+    margin-top:3px;
+}    
+
+
